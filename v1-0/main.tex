@@ -1,4 +1,4 @@
-% Modelo de Trabalho Acadêmico da UNESP de Guaratinguetá v-1.0
+% Modelo de Trabalho Acadêmico da UNESP de Guaratinguetá v-1.1
 % Copyright 2017 by Eduardo Rohde Eras
 %
 % This program is free software: you can redistribute it and/or modify
@@ -37,7 +37,7 @@
   english,	%Idioma adicional para hifenização.
   french,	%Idioma adicional para hifenização.
   spanish,	%Idioma adicional para hifenização.
-  brazil	%Idioma principal do documento.
+  brazil
   %----------------------------------------------------------------------------------------%
 ]{abntex2}
 
@@ -52,6 +52,8 @@
     \usepackage{color}		    %Controle das cores.
     \usepackage{graphicx}	    %Inclusão de gráficos.
     \usepackage{lipsum}		    %Para geração de 'Dummy Text'.
+    \usepackage{lastpage}       % usado por abntex2-fichacatalografica.tex
+
     
 %----------------------------------------------------------------------------------------%
 % I N F O R M A Ç Õ E S   B Á S I C A S   S O B R E   O   T R A B A L H O
@@ -79,22 +81,22 @@
     
     %Título do presente trabalho:
     \newcommand{\tituloDoTrabalho}{
-    Título do Trabalho
+    Título do trabalho
     }
     
     %Subtítulo do presente trabalho, se houver:
     \newcommand{\subtituloDoTrabalho}{
-    Subtítulo do Trabalho
+    subtítulo do trabalho
     }
     
     %Mês da entrega do trabalho
     \newcommand{\mesDeEntrega}{
-    Janeiro
+    Fevereiro
     }
     
     %Ano da entrega do trabalho
     \newcommand{\anoDeEntrega}{
-    2017
+    2019
     }
     
     %----------------------------------------------------------------------------------------%
@@ -174,6 +176,48 @@
     \imprimirfolhaderosto
     
     %------------------------------------------------------------------------------------%
+    % F I C H A   CATALOGRÁFICA
+    %
+    % OBRIGATÓRIO. Esta ficha é gerada pela Biblioteca depois de efetuar as correções  
+    % sugeridas pela banca na defesa da trabalho. Aqui, foi adicionado o exemplo encontrado
+    % na documentação 'A classe abntex2' (p. 23). Recomenda-se, contudo, adicionar o arquivo
+    % enviado pela biblioteca no formato em pdf. Para isso, basta excluir tudo, a adicionar
+    % \includepdf{fichacatalografica.pdf} através do pacote pdfpages
+    %
+    % ISSUE #01 - EM ABERTA
+    %
+    %------------------------------------------------------------------------------------%
+    \begin{fichacatalografica}
+     \sffamily
+        \vspace*{15cm} % Posição vertical
+        \hrule % Linha horizontal
+        \begin{center} % Minipage Centralizado
+        \begin{minipage}[c]{12.5cm} % Largura
+        \nomeDoAutor
+        \hspace{0.5cm} \tituloDoTrabalho: \subtituloDoTrabalho / \nomeDoAutor. --
+        \nomeDaCidade, \mesDeEntrega \anoDeEntrega-
+        \hspace{0.5cm} \pageref{LastPage} p. : il.(alguma color.); 30 cm.\\
+        \hspace{0.5cm} \tituloDoOrientador \nomeDoOrientador\\
+        \hspace{0.5cm}
+        \parbox[t]{\textwidth}{\imprimirtipotrabalho~--~\nomeDaUniversidade,
+        \mesDeEntrega \anoDeEntrega.}\\
+        \hspace{0.5cm}
+        1. Palavra-chave1.
+        2. Palavra-chave2.
+        I. Orientador.
+        II. Universidade xxx.
+        III. Faculdade de xxx.
+        IV. Título\\
+        \hspace{8.75cm} CDU 02:141:005.7\\
+        \end{minipage}
+        \end{center}
+        \hrule
+    \end{fichacatalografica}
+
+
+    
+    
+    %------------------------------------------------------------------------------------%
     % F O L H A   D E   A P R O V A Ç Ã O
     %
     % OBRIGATÓRIO. Este é o modelo de folha de aprovação que deve ser digitalizada após as
@@ -229,6 +273,11 @@
         
         \end{center}
     \end{folhadeaprovacao}
+
+    
+    
+    
+
     
     %------------------------------------------------------------------------------------%
     % D A D O S   C U R R I C U L A R E S
@@ -450,6 +499,8 @@
         \section{CITAÇÕES}
         
             Uma citação \cite{carbono} simples é dada pelo comando \verb|\cite{}|, referenciando uma entrada no arquivo \verb|references.bib|. As citações podem referenciar diferentes tipos de documentos. Esse é um exemplo de uma citação de um livro \cite{livro}. Esse é um exemplo de uma citação de artigo \cite{artigo}. Esse é um exemplo de uma citação de um site \cite{website}.
+            
+            \verb|fscaret| \cite{fscaret}
         
         \section{CITAÇÃO DIRETA}
         
@@ -484,6 +535,8 @@
             Para o Autor Exemplo \apud[p.~1--5]{website}{invisivel}, é possível citar uma citação feita por outro autor em seu documento \LaTeX.\footnote{SITE, A. do. \textbf{Título do Site}. 2017. Disponível em: \url{http://www.url.com} apud INVISÍVEL, \textbf{Obra Não Citada na Bibliografia}. Cidade, Editora Invisível, 2017}
             
             A referência deve ser feita em Nota de Rodapé (digitada manualmente, conforme o exemplo, em um comando \verb|\footnote{}|) e não incluída na lista de Referências. Portanto, o autor citado indiretamente deve estar marcado como \verb|@hidden| no arquivo \verb|.bib|. 
+            
+            Citando uma dissertação de mestrado \cite{araujo1986} uma tese de doutorado \cite{teseDoutorado}.
              
         \section{FIGURAS, TABELAS E QUADROS}
         
@@ -657,4 +710,3 @@
     \end{anexosenv}
     
 \end{document}
-
