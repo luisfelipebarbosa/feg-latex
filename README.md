@@ -1,11 +1,10 @@
 # feg-latex
 
-Eduardo Rohde Eras, com a ajuda da biblioteca da [UNESP/FEG](http://www.feg.unesp.br/), criou o _Modelo de Trabalho Acadêmico da UNESP de Guaratinguetá v-1.0_ em LaTeX, com base no [abntex2](http://www.abntex.net.br). Este modelo pode ser encontrado nos seguintes links:
+Eduardo Rohde Eras, com a ajuda da biblioteca da [UNESP/FEG](http://www.feg.unesp.br/), criou o _Modelo de Trabalho Acadêmico da UNESP de Guaratinguetá v-1.0_ em LaTeX, com base no [abntex2](http://www.abntex.net.br). Este modelo pode ser encontrado no próprio repositório [na pasta](https://github.com/luisfelipebarbosa/feg-latex/tree/master/v1-0) ou nos seguintes links da faculdade:
 
 - http://www.feg.unesp.br/Home/Biblioteca21/templatetcc.zip
 - http://www.feg.unesp.br/#!/biblioteca/trabalho-conclusao-de-curso/
 - http://www.feg.unesp.br/#!/biblioteca/mestrado-e-doutorado/
-
 
 
 ### Objetivo deste repositório ###
@@ -17,7 +16,7 @@ Eduardo Rohde Eras, com a ajuda da biblioteca da [UNESP/FEG](http://www.feg.unes
 
 
 1. As atualizações estão sendo realizadas no branch _v1-1_;
-1. Para contribuir neste projeto é recomendável ter noções básicas do LaTeX e da classe [abntex2](http://www.abntex.net.br). Como introdução ao LaTeX recomendo fortemente a consulta ao documento [_The Not So Short Introduction to LATEX 2ε_](https://ctan.org/tex-archive/info/lshort/english/);
+1. Para contribuir neste projeto é recomendável ter noções básicas do LaTeX e da classe [abntex2](http://www.abntex.net.br). Como introdução ao LaTeX recomendo fortemente a consulta ao documento [The Not So Short Introduction to LATEX 2ε_](https://ctan.org/tex-archive/info/lshort/english/);
 1. É importante também aprender a utilizar o repositório [GitHub](https://guides.github.com/)
 
 
