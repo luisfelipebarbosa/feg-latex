@@ -20,6 +20,9 @@ Eduardo Rohde Eras, com a ajuda da biblioteca da [UNESP/FEG](http://www.feg.unes
 1. Para contribuir neste projeto é recomendável ter noções básicas do LaTeX e da classe [abntex2](http://www.abntex.net.br). Como introdução ao LaTeX recomendo fortemente a consulta ao documento [The Not So Short Introduction to LATEX 2ε_](https://ctan.org/tex-archive/info/lshort/english/);
 1. É importante também aprender a utilizar o repositório [GitHub](https://guides.github.com/)
 
+### Versão _v1-1_ ###
+
+A versão _v1-1_ está quase pronta. Devo publicar em breve.
 
 ### Criador do Modelo ###
 
