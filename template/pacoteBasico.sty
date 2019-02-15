@@ -1,0 +1,149 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{pacoteBasico}[2016/10/07 pacote basico]
+
+    %----------------------------------------------------------------------------------------%
+    % P A C O T E S
+    %----------------------------------------------------------------------------------------%
+
+    %Pacotes padrão
+
+        \RequirePackage[utf8]{inputenc}		%Codificação automática de acentos no padrão UTF 8.
+        \RequirePackage[T1]{fontenc}        %Garante que a acentuação e símbolos funcionem corretamente.
+        \RequirePackage{times}              %Utiliza a fonte 'Times'
+        \RequirePackage{indentfirst}		%Indenta o primeiro parágrafo de cada seção.
+        \RequirePackage{microtype}			%Para melhorias de justificação
+        \RequirePackage{framed}             %Inclusão de molduras em caixas de texto
+        \RequirePackage{afterpage}          %Inclusão de novas páginas em branco
+        \DisemulatePackage{setspace}        %Personalização do espaçamento entre linhas
+        \usepackage{csquotes}               %Citações diretas
+    
+    %Pacotes configuráveis
+
+        \usepackage[
+          hmargin={2cm},	%Margem Horizontal
+          vmargin={2cm}		%Margem Vertical
+        ]{geometry}
+        
+        %Configuração do ambiente "Quadro"
+        \usepackage[within=none]{newfloat}
+        \DeclareFloatingEnvironment[fileext=lof]{quadro}
+        
+        \usepackage{caption}
+        \captionsetup[figure]{listformat=simple}
+        \captionsetup[quadro]{listformat=simple}
+        
+        \makeatletter
+        \renewcommand*{\l@figure}{\@dottedtocline{1}{1.5em}{4.5em}}
+        \renewcommand*{\l@quadro}{\@dottedtocline{1}{1.5em}{4.5em}}
+        \renewcommand*{\p@figure}{\figurename~}
+        \renewcommand*{\p@quadro}{\quadroname~}
+        \makeatother
+        
+        %Citações no padrão ABNT
+        \RequirePackage[alf,abnt-emphasize=bf]{abntex2cite}
+        
+        %Pacote com notações matemáticas avançadas
+        \usepackage{mathtools}      
+        \renewcommand{\theequation}{\arabic{equation}} %Numeração individual para cada equação
+    
+    %----------------------------------------------------------------------------------------%
+    % C O N F I G U R A Ç Õ E S   D E   F O N T E S
+    %----------------------------------------------------------------------------------------%
+    
+    %Fonte nos capítulos em 'Times' com tamanho 'normalsize' negrito.
+    \renewcommand{\ABNTEXchapterfont}{\fontfamily{ptm}\fontseries{b}\selectfont}
+    \renewcommand{\ABNTEXchapterfontsize}{\normalsize}
+    
+    %Fontes das seções em 'Times' com tamanho 'normalsize'.
+    \renewcommand{\ABNTEXsectionfont}{\fontfamily{ptm}\selectfont}
+    \renewcommand{\ABNTEXsectionfontsize}{\normalsize}
+    
+    %Fontes das subseções em 'Times' com tamanho 'normalsize' negrito.
+    \renewcommand{\ABNTEXsubsectionfont}{\fontfamily{ptm}\fontseries{b}\selectfont}
+    \renewcommand{\ABNTEXsubsectionfontsize}{\normalsize}
+    
+    %Fontes das sub-subseções em 'Times' com tamanho 'normalsize'.
+    \renewcommand{\ABNTEXsubsubsectionfont}{\fontfamily{ptm}\selectfont}
+    \renewcommand{\ABNTEXsubsubsectionfontsize}{\normalsize}
+    
+    %Fontes das sub-sub-subseções em 'Times' com tamanho 'normalsize' itálico.
+    \renewcommand{\ABNTEXsubsubsubsectionfont}{\fontfamily{ptm}\fontshape{it}\selectfont}
+    \renewcommand{\ABNTEXsubsubsubsectionfontsize}{\normalsize}
+    
+    %Configuração das fontes do Sumário para cada nível
+    \renewcommand\cftchapterfont\textbf   
+    \renewcommand\cftsectionfont{\normalfont}%\uppercase
+    \renewcommand\cftsubsectionfont\textbf
+    \renewcommand\cftsubsubsectionfont\normalfont 
+    \renewcommand\cftparagraphfont{\normalfont\textit}
+    
+    %----------------------------------------------------------------------------------------%
+    % C A P A   E   F O L H A   D E   R O S T O
+    %----------------------------------------------------------------------------------------%
+
+    \preambulo{Trabalho de Graduação apresentado ao Conselho de Curso de Graduação em \nomeDoCurso da Faculdade de Engenharia do Campus de Guaratinguetá, Universidade Estatual Paulista, como parte dos requisitos para obtenção do diploma de Graduação em \nomeDoCurso.}
+    
+    % CAPA ----------------------------------------------------------------------------------
+    \renewcommand{\imprimircapa}{
+        \begin{capa}
+            \center
+            {\sffamily
+                \bfseries{
+                    \Large{
+                        UNIVERSIDADE ESTADUAL PAULISTA\par
+                        "JÚLIO DE MESQUITA FILHO"\par
+                    }
+                }
+                CAMPUS DE GUARATINGUETÁ
+            }
+            
+            \vspace*{3cm}
+            
+            {\normalsize{\bfseries{\MakeUppercase\nomeDoAutor}}}
+    
+            \vfill
+                \begin{center}
+                    {\bfseries{\normalsize{\tituloDoTrabalho: }}}\subtituloDoTrabalho
+                \end{center}
+            \vfill
+            
+            \normalsize{\nomeDaCidade}\par
+            \normalsize{\anoDeEntrega}
+            \vspace*{1cm}
+        \end{capa}
+    }
+    
+    % FOLHA DE ROSTO ------------------------------------------------------------------------
+    \renewcommand{\folhaderostocontent}{
+        \begin{center}
+        
+            {\bfseries\nomeDoAutor}
+            
+            \vspace*{\fill}\vspace*{\fill}
+            
+            \begin{center}
+                {\bfseries\tituloDoTrabalho: }\subtituloDoTrabalho
+            \end{center}
+            
+            \vspace*{\fill}
+            
+            \hspace{.45\textwidth}
+            \begin{minipage}{.5\textwidth}
+                {\SingleSpacing\imprimirpreambulo}
+                \par
+                \vspace*{1cm}
+                Orientador: \tituloDoOrientador\nomeDoOrientador\par
+                Coorientador: \tituloDoCoorientador\NomeDoCoorientador
+            \end{minipage}
+            \vspace*{\fill}
+
+            \vspace*{\fill}
+            \normalsize{\nomeDaCidade}
+            \par
+            \normalsize{\anoDeEntrega}
+            \vspace*{1cm}
+        \end{center}
+        \afterpage{\null\setcounter{page}{1}}
+    }
+
+\endinput
