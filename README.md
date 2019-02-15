@@ -10,7 +10,7 @@ Eduardo Rohde Eras, com a ajuda da biblioteca da [UNESP/FEG](http://www.feg.unes
 ### Objetivo deste repositório ###
 
 - Criar um ambiente colaborativo para aprimorar a versão original __v-1.0__, visando a atender as normas ABNT e as [Diretrizes para apresentação de trabalhos acadêmicos da FEG/UNESP](http://www.feg.unesp.br/Home/Biblioteca21/diretrizes-2016.pdf).
-- Adicionar ao template exemplos de diversas referências de acordo com as diretrizes da UNESP/FEG (principalmente as referências do tipo __eventos__) e tabelas longas (multiplas páginas com [longtable](https://ctan.org/pkg/longtable);
+- Adicionar ao template exemplos de diversas referências de acordo com as diretrizes da UNESP/FEG (principalmente as referências do tipo __eventos__) e tabelas longas (multiplas páginas com [longtable](https://ctan.org/pkg/longtable));
 - Discutir possíveis soluções de alguns problemas, apontados nas __issues__
 
 ### Considerações ###
