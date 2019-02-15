@@ -22,7 +22,8 @@ Eduardo Rohde Eras, com a ajuda da biblioteca da [UNESP/FEG](http://www.feg.unes
 
 ### Versão _v1-1_ ###
 
-A versão _v1-1_ está quase pronta. As alterações realizadas estão resumidas em [UPDATES.md]
+A versão _v1-1_ está quase pronta. As alterações realizadas estão resumidas em [UPDATES.md](feg-latex/UPDATES.md)
+      
 
 ### Criador do Modelo ###
 
