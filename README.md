@@ -1,6 +1,6 @@
 # feg-latex
 
-Eduardo Rohde Eras, com a ajuda da biblioteca da [UNESP/FEG](http://www.feg.unesp.br/), criou o _Modelo de Trabalho Acadêmico da UNESP de Guaratinguetá v-1.0_ em LaTeX, com base no [abntex2](http://www.abntex.net.br). Este modelo pode ser encontrado no próprio repositório [na pasta](https://github.com/luisfelipebarbosa/feg-latex/tree/master/v1-0) ou nos seguintes links da faculdade:
+Eduardo Rohde Eras, com a ajuda da biblioteca da [UNESP/FEG](http://www.feg.unesp.br/), criou o _Modelo de Trabalho Acadêmico da UNESP de Guaratinguetá v-1.0_ em LaTeX, com base no [abntex2](http://www.abntex.net.br). Este modelo pode ser encontrado no próprio repositório [na pasta](/v1-0/) ou nos seguintes links da faculdade:
 
 - http://www.feg.unesp.br/Home/Biblioteca21/templatetcc.zip
 - http://www.feg.unesp.br/#!/biblioteca/trabalho-conclusao-de-curso/
