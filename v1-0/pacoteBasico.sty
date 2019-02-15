@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{pacoteBasico}[2016/10/07 pacote basico]
+\ProvidesPackage{pacoteBasico}[2019/02/15 pacote basico]
 
     %----------------------------------------------------------------------------------------%
     % P A C O T E S
@@ -18,11 +18,16 @@
         \usepackage{csquotes}               %Citações diretas
     
     %Pacotes configuráveis
-
+        % Valores editados para adequar à norma ABNT - LFB
         \usepackage[
-          hmargin={2cm},	%Margem Horizontal
-          vmargin={2cm}		%Margem Vertical
+          bmargin={2cm},	%Margem Horizontal (original hmargin) - EDITADO
+          lmargin={3cm},    %Margem Esquerda
+          tmargin={3cm},	%Margem Vertical (original vmargin) - EDITADO
+          rmargin={2cm}     %Margem Direita
         ]{geometry}
+        
+        % Parágrafo de 1cm - LFB
+        \setlength{\parindent}{1cm}
         
         %Configuração do ambiente "Quadro"
         \usepackage[within=none]{newfloat}
@@ -40,7 +45,9 @@
         \makeatother
         
         %Citações no padrão ABNT
-        \RequirePackage[alf,abnt-emphasize=bf]{abntex2cite}
+        % Adicionado  <bibjustif> para justificar as referências - LFB
+        % Fonte da informação: //groups.google.com/forum/#!topic/abntex2/DqDJeBcrHDY
+        \RequirePackage[alf,abnt-emphasize=bf,bibjustif]{abntex2cite} 
         
         %Pacote com notações matemáticas avançadas
         \usepackage{mathtools}      
