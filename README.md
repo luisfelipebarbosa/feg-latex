@@ -18,7 +18,7 @@ Há também um tutorial sobre o uso do template:
 
 ### Versão __v1-1__ ###
 
-A versão __v1-1__ está disponível na [pasta template](/template/).. As alterações realizadas estão resumidas em [UPDATES.md](/UPDATES.md).
+A versão __v1-1__ está disponível na [pasta template](/template/). As alterações realizadas estão resumidas em [UPDATES.md](/UPDATES.md). __Essas alterações estão sendo revistas pela equipe de biblioteca da UNESP de Guaratinguetá (enviado 18 fev. 2019).__ A biblioteca está primeiro determinando como será o posicionamento da instituição frente à atualização de alguma norma pertinente da ABNT. Assim, espera-se que dentre algumas semanas (meses), a revisão do template conclua. 
 
 A versão inicial __v1-0__ está salva como backup nesta [pasta v1-0](/v1-0/).
 
