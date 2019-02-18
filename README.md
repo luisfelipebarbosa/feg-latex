@@ -6,6 +6,9 @@ Eduardo Rohde Eras, com a ajuda da biblioteca da [UNESP/FEG](http://www.feg.unes
 - http://www.feg.unesp.br/#!/biblioteca/trabalho-conclusao-de-curso/
 - http://www.feg.unesp.br/#!/biblioteca/mestrado-e-doutorado/
 
+Há também um tutorial sobre o uso do template:
+
+- [Template de Trabalho Acadâemico da UNESP de Guaratinguetá](http://www.feg.unesp.br/Home/Biblioteca21/tutorial_template_tcc.pdf)
 
 ### Objetivo deste repositório ###
 
