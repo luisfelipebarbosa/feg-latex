@@ -22,8 +22,9 @@ Eduardo Rohde Eras, com a ajuda da biblioteca da [UNESP/FEG](http://www.feg.unes
 
 ### Versão __v1-1__ ###
 
-A versão __v1-1__ está quase pronta. As alterações realizadas estão resumidas em [UPDATES.md](/UPDATES.md).
-A versão inicial __v1-0__ está salva como backup nesta [pasta](/v1-0/).
+A versão __v1-1__ está disponível na [pasta template](/template/).. As alterações realizadas estão resumidas em [UPDATES.md](/UPDATES.md).
+
+A versão inicial __v1-0__ está salva como backup nesta [pasta v1-0](/v1-0/).
       
 
 ### Criador do Modelo ###
