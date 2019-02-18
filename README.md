@@ -16,19 +16,19 @@ Há também um tutorial sobre o uso do template:
 - Adicionar ao template exemplos de diversas referências de acordo com as diretrizes da UNESP/FEG (principalmente as referências do tipo __eventos__) e tabelas longas (multiplas páginas com [longtable](https://ctan.org/pkg/longtable));
 - Discutir possíveis soluções de alguns problemas, apontados nas __issues__
 
-### Considerações ###
-
-
-1. As atualizações estão sendo realizadas no branch __v1-1__;
-1. Para contribuir neste projeto é recomendável ter noções básicas do LaTeX e da classe [abntex2](http://www.abntex.net.br). Como introdução ao LaTeX recomendo fortemente a consulta ao documento [_The Not So Short Introduction to LATEX 2ε_](https://ctan.org/tex-archive/info/lshort/english/);
-1. É importante também aprender a utilizar o repositório [GitHub](https://guides.github.com/)
-
 ### Versão __v1-1__ ###
 
 A versão __v1-1__ está disponível na [pasta template](/template/).. As alterações realizadas estão resumidas em [UPDATES.md](/UPDATES.md).
 
 A versão inicial __v1-0__ está salva como backup nesta [pasta v1-0](/v1-0/).
-      
+
+### Novo por aqui? ###
+
+1. Quer contribuir com o projeto, mas não sabe como? Não há problema, há tutorials de como utilizar o [GitHub](https://guides.github.com/)
+1. Novo também ao LaTeX. Veja o tutorial do [Eduardo](http://www.feg.unesp.br/Home/Biblioteca21/tutorial_template_tcc.pdf) ou [_The Not So Short Introduction to LATEX 2ε_](https://ctan.org/tex-archive/info/lshort/english/).
+1. Para se familiazer-se com o abntex2, veja as [documentações no site deles](http://www.abntex.net.br);
+1. Veja os __issues abertos__
+1. Fork o projeto e efetue as alterações que achar necessário. Depois só _pull request_ 
 
 ### Criador do Modelo ###
 
