@@ -9,7 +9,7 @@ As atualizações realizadas na versão original __v1-0__ para a versão __v1-1_
 - [x] Referências justificadas;
 - [x] Adicionado exemplos genêricos de referências (especialmente os eventos);
 - [x] Adicionado o year-presented nos exemplos genéricos de TG, dissertações e teses;
-- [x] Uso do \IBGEtab{}{}{} para geração de tabelas (problema em aberto [issue 04](https://github.com/luisfelipebarbosa/feg-latex/issues/4))
+- [x] Uso do \IBGEtab{}{}{} para geração de tabelas (solução não definitiva, veja [issue 04](https://github.com/luisfelipebarbosa/feg-latex/issues/4))
 - [x] Adicionado um exemplo de tabela longa;
 - [ ] Adicionar metadados no arquivo pdf;
 - [x] Uso do ambiente (\begin{citacao} ... \end{citacao}) para citações diretas com mais de três linhas;
