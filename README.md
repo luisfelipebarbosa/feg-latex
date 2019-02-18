@@ -26,7 +26,7 @@ A versão inicial __v1-0__ está salva como backup nesta [pasta v1-0](/v1-0/).
 
 1. Quer contribuir com o projeto, mas não sabe como? Não há problema, há tutorials de como utilizar o [GitHub](https://guides.github.com/)
 1. Novo também ao LaTeX. Veja o tutorial do [Eduardo](http://www.feg.unesp.br/Home/Biblioteca21/tutorial_template_tcc.pdf) ou [_The Not So Short Introduction to LATEX 2ε_](https://ctan.org/tex-archive/info/lshort/english/).
-1. Para se familiazer-se com o abntex2, veja as [documentações no site deles](http://www.abntex.net.br);
+1. Para se familiarizar-se com o abntex2, veja as [documentações no site deles](http://www.abntex.net.br);
 1. Veja os __issues abertos__
 1. Fork o projeto e efetue as alterações que achar necessário. Depois só _pull request_ 
 
