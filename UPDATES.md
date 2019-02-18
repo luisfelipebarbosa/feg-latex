@@ -8,6 +8,6 @@ As atualizações realizadas na versão original __v1-0__ para a versão __v1-1_
 - [x] Título e subtítulo de acordo com as diretrizes/ABNT. Isto é, somente a primeira palavra é escrita em maiúsculo
 - [x] Referências justificadas;
 - [x] Adicionar exemplos genêricos de referências (especialmente os eventos);
-- [ ] Adicionar um exemplo de tabela longa;
+- [x] Adicionar um exemplo de tabela longa;
 - [ ] Adicionar metadados no arquivo pdf;
-- [ ] Verificar citação direta com mais de três linhas (talvez utilizar o ambiente \begin{citacao} ... \end{citacao});
+- [x] Verificar citação direta com mais de três linhas (talvez utilizar o ambiente \begin{citacao} ... \end{citacao});
