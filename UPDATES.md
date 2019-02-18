@@ -1,7 +1,7 @@
 # Atualizações 
 
 ### Versão __v1-1__ ###
-As atualizações realizadas por @luisfelipebarbosa na versão original __v1-0__ para a versão __v1-1__ são as seguintes:
+As atualizações realizadas por User@luisfelipebarbosa na versão original __v1-0__ para a versão __v1-1__ são as seguintes:
 
 - [x] Adequação das margens para a norma ABNT e as diretrizes da UNESP de Guaratinguetá;
 - [x] Parágrafo de 1cm, conforme as diretrizes da FEG;
